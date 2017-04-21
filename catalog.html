@@ -3,6 +3,7 @@
 <head>
   <meta charset='utf-8'>
   <title> Средства для ухода </title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -10,7 +11,7 @@
     <div class='container'>
 
       <div class='nav-logo'>
-      <img src='#' width='' height='' alt='"Барбершоп"'>
+      <img src='img\logo.png' width='111' height='24' alt='"Барбершоп"'>
       </div>
 
       <nav class='main-navigation'>
@@ -30,7 +31,7 @@
 
     <main>
       <div class='container'>
-        <h1> Средства для ухода </h1>
+        <h1 class='h1'> Средства для ухода </h1>
         <section class='breadcrumbs'>
           <ul>
             <li> <a href='#'> Главная </a> </li>
@@ -40,7 +41,7 @@
         </section>
 
         <form class='filter'>
-          <h2> Производители: </h2>
+          <h2 class='h2'> Производители: </h2>
           <ul class='filter-producers'>
             <li>
               <input type='checkbox' id='prod-1' checked>
@@ -70,15 +71,15 @@
           <h2> Группы товаров: </h2>
           <ul class='filter-group-of-items'>
             <li>
-              <input type='radio' id='group-1'>
+              <input type='radio' id='group-1' name='radio'>
               <label for='group-1'> Бритвенные принадлежности </label>
             </li>
             <li>
-              <input type='radio' id='group-2' checked>
+              <input type='radio' id='group-2' name='radio' checked>
               <label for='group-2'> Средства для ухода </label>
             </li>
             <li>
-              <input type='radio' id='group-3'>
+              <input type='radio' id='group-3' name='radio'>
               <label for='group-3'> Аксессуары </label>
             </li>
           </ul>
@@ -92,7 +93,7 @@
           <article class='item'>
             <div class='item-image'>
               <a href='#'>
-                <img src='' width='' height='' alt=''>
+                <img src='img/item-1.jpg' width='220' height='165' alt='Набор для путешествий "Baxter of California"'>
               </a>
             </div>
              <div class='item-desc'>
@@ -109,7 +110,7 @@
            <article class='item'>
              <div class='item-image'>
                <a href='#'>
-                 <img src='' width='' height='' alt=''>
+                 <img src='img/item-2.jpg' width='220' height='165' alt='Увлажняющий кондиционер "Baxter of California"'>
                </a>
              </div>
               <div class='item-desc'>
@@ -126,7 +127,7 @@
             <article class='item'>
               <div class='item-image'>
                 <a href='#'>
-                  <img src='' width='' height='' alt=''>
+                  <img src='img/item-3.jpg' width='220' height='165' alt='Гель для волос "Suavecito"'>
                 </a>
               </div>
                <div class='item-desc'>
@@ -143,7 +144,7 @@
              <article class='item'>
                <div class='item-image'>
                  <a href='#'>
-                   <img src='' width='' height='' alt=''>
+                   <img src='img/item-4.jpg' width='220' height='165' alt='Гель для укладки волос "American crew"'>
                  </a>
                </div>
                 <div class='item-desc'>
@@ -160,7 +161,7 @@
               <article class='item'>
                 <div class='item-image'>
                   <a href='#'>
-                    <img src='' width='' height='' alt=''>
+                    <img src='img/item-5.jpg' width='220' height='165' alt='Гель для волос "American crew"'>
                   </a>
                 </div>
                  <div class='item-desc'>
@@ -177,7 +178,7 @@
                <article class='item'>
                  <div class='item-image'>
                    <a href='#'>
-                     <img src='' width='' height='' alt=''>
+                     <img src='img/item-6.jpg' width='220' height='165' alt='Набор для бритья "Baxter of California"'>
                    </a>
                  </div>
                   <div class='item-desc'>
@@ -191,23 +192,6 @@
                   </div>
                 </article>
 
-                <article class='item'>
-                  <div class='item-image'>
-                    <a href='#'>
-                      <img src='' width='' height='' alt=''>
-                    </a>
-                  </div>
-                   <div class='item-desc'>
-                     <a href='#'>
-                       Набор для путешествий "Baxter of California"
-                     </a>
-                   </div>
-                   <div class='item-purchase'>
-                     <span class='item-price'> 2 900 РУБ. </span>
-                     <a class='item-buy-btn' href='#'> Купить </a>
-                   </div>
-                 </article>
-               </div>
 
                <div class='pagination'>
                  <ul>
@@ -235,7 +219,7 @@
                    <p> Барбершоп "Бородинский" <br>
                      Адрес: <br>
                      <a href='#'> Как нас найти? </a> <br>
-                     Телефон:
+                     Телефон: +7 (495) 666-02-66
                    </p>
                  </section>
 
