@@ -2,14 +2,102 @@ body {
   color: #000000;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
-.h1 h1 {
+.h1 .catalog-heading {
   font-size: 30px;
   line-height: 42px;
 }
 
-.h2 h2 {
+.h2 .item-title {
   font-size: 24px;
   line-height: 30px;
+}
+
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin-bottom: 60px;
+  min-height: 70px;
+  background: black;
+}
+
+.nav-logo {
+  float: left;
+  width: 111px;
+  padding-top: 20px;
+  padding-left: 20px;
+  min-height: 24px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+
+.main-navigation li {
+  display: inline-block;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+h1 .catalog-heading {
+  margin-bottom: 35px;
+}
+
+.breadcrumbs {
+  width: 320px;
+  min-height: 35px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.filter-upper {
+  float: left;
+  width: 180px;
+  height: 275px;
+}
+
+fieldset {
+  border: none;
+  clear: both;
+}
+fieldset ul {
+  list-style-type: none;
+}
+
+fieldset li {
+  display: inline-block;
+  vertical-align: left;
+}
+
+.filter-lower {
+  float: left;
+  width: 180px;
+  height: 215px;
 }

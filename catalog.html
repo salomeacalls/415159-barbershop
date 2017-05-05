@@ -8,7 +8,7 @@
 
 <body>
   <header class='main-header'>
-    <div class='container'>
+    <div class='container clearfix'>
 
       <div class='nav-logo'>
       <img src='img\logo.png' width='111' height='24' alt='"Барбершоп"'>
@@ -30,8 +30,8 @@
     </header>
 
     <main>
-      <div class='container'>
-        <h1 class='h1'> Средства для ухода </h1>
+      <div class='container clearfix'>
+        <h1 class='catalog-heading'> Средства для ухода </h1>
         <section class='breadcrumbs'>
           <ul>
             <li> <a href='#'> Главная </a> </li>
@@ -41,7 +41,8 @@
         </section>
 
         <form class='filter'>
-          <h2 class='h2'> Производители: </h2>
+          <fieldset class='filter-upper'>
+          <legend> Производители: </legend>
           <ul class='filter-producers'>
             <li>
               <input type='checkbox' id='prod-1' checked>
@@ -56,7 +57,7 @@
             </li>
             <li>
               <input type='checkbox' id='prod-4'>
-              <label for='prod-4'> Malin-+Goetz </label>
+              <label for='prod-4'> Malin+Goetz </label>
             </li>
             <li>
               <input type='checkbox' id='prod-5'>
@@ -67,8 +68,10 @@
               <label for='prod-6'> American Crew </label>
             </li>
           </ul>
+        </fieldset>
 
-          <h2 class='h2'> Группы товаров: </h2>
+        <fieldset class='filter-lower'>
+          <legend>Группы товаров: </legend>
           <ul class='filter-group-of-items'>
             <li>
               <input type='radio' id='group-1' name='radio'>
@@ -83,6 +86,7 @@
               <label for='group-3'> Аксессуары </label>
             </li>
           </ul>
+        </fieldset>
 
           <div class='filter-btn'>
             <input type='submit' value='Показать'>
@@ -97,9 +101,16 @@
               </a>
             </div>
              <div class='item-desc'>
+               <h2 class='item-title'>
                <a href='#'>
-                 Набор для путешествий "Baxter of California"
+                  <span class='item-category'>
+                   Набор для путешествий
+                 </span>
+                 <span class='item-name'>
+                 "Baxter of California"
+               </span>
                </a>
+                </h2>
              </div>
              <div class='item-purchase'>
                <span class='item-price'> 2 900 РУБ. </span>
@@ -114,9 +125,16 @@
                </a>
              </div>
               <div class='item-desc'>
+                <h2 class='item-title'>
                 <a href='#'>
-                  Увлажняющий кондиционер "Baxter of California"
+                    <span class='item-category'>
+                  Увлажняющий кондиционер
+                </span>
+                <span class='item-name'>
+                   "Baxter of California"
+                   </span>
                 </a>
+              </h2>
               </div>
               <div class='item-purchase'>
                 <span class='item-price'> 750 РУБ. </span>
@@ -131,9 +149,16 @@
                 </a>
               </div>
                <div class='item-desc'>
+                 <h2 class='item-title'>
                  <a href='#'>
-                   Гель для волос "Suavecito"
+                 <span class='item-category'>
+                   Гель для волос
+                 </span>
+                 <span class='item-name'>
+                  "Suavecito"
+                </span>
                  </a>
+                 </h2>
                </div>
                <div class='item-purchase'>
                  <span class='item-price'> 290 РУБ. </span>
@@ -148,9 +173,16 @@
                  </a>
                </div>
                 <div class='item-desc'>
+                  <h2 class='item-title'>
                   <a href='#'>
-                    Гель для укладки волос "American crew"
+                      <span class='item-category'>
+                    Гель для укладки волос
+                  </span>
+                  <span class='item-name'>
+                  "American crew"
+                </span>
                   </a>
+                  </h2>
                 </div>
                 <div class='item-purchase'>
                   <span class='item-price'> 500 РУБ. </span>
@@ -165,9 +197,16 @@
                   </a>
                 </div>
                  <div class='item-desc'>
+                   <h2 class='item-title'>
                    <a href='#'>
-                     Гель для волос "American crew"
+                       <span class='item-category'>
+                     Гель для волос
+                   </span>
+                   <span class='item-name'>
+                     "American crew"
+                   </span>
                    </a>
+                   </h2>
                  </div>
                  <div class='item-purchase'>
                    <span class='item-price'> 300 РУБ. </span>
@@ -182,9 +221,16 @@
                    </a>
                  </div>
                   <div class='item-desc'>
+                    <h2 class='item-title'>
                     <a href='#'>
-                      Набор для бритья "Baxter of California"
+                        <span class='item-category'>
+                      Набор для бритья
+                    </span>
+                    <span class='item-name'>
+                      "Baxter of California"
+                    </span>
                     </a>
+                    </h2>
                   </div>
                   <div class='item-purchase'>
                     <span class='item-price'> 3 900 РУБ. </span>
@@ -213,7 +259,7 @@
              </main>
 
              <footer class='main-footer'>
-               <div class='container'>
+               <div class='container clearfix'>
 
                  <section class='footer-contacts'>
                    <p> Барбершоп "Бородинский" <br>
